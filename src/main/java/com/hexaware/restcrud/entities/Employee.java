@@ -24,7 +24,6 @@ public class Employee implements Serializable{
 	
 	@NotNull
 	@Pattern(regexp ="[A-Z][a-z]{3,10}")
-	//@Email
 	private String ename;
 	
 	@Min(10000)
